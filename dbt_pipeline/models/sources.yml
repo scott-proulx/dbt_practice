@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: netflix
+    schema: raw
+    tables:
+      - name: credits
+        identifier: raw_credits
+
+      - name: titles
+        identifier: raw_titles
+
